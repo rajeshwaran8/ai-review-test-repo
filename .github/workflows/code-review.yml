@@ -16,6 +16,6 @@ jobs:
 
       - name: Run AI Code Review
         run: |
-          curl -X POST https://b763-120-60-167-20.ngrok-free.app/webhook \
+          curl -X POST https://52a4-120-60-5-14.ngrok-free.app/webhook \
           -H "Content-Type: application/json" \
           -d '${{ toJson(github.event) }}'
