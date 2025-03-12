@@ -1,6 +1,6 @@
 export class CalculatorService {
   
-  public calculate(a:any, b:any, operation:any) {
+  public calculate(a, b, operation) {
     if (operation == '+') return a+b;
     else if (operation == '-') return a-b;
     else if (operation == '*') return a*b;
